@@ -18,3 +18,4 @@ View your app in AI Studio: https://ai.studio/apps/a0d40e51-8e24-44cc-88d3-b34d0
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+DEPLOY LINK :  https://civic-issue-reporting-resolution-platform-938172586538.us-west1.run.app
