@@ -1,0 +1,6 @@
+{
+  "name": "Civic Issue Reporting & Resolution Platform",
+  "description": "An intelligent, community-driven platform for reporting, validating, tracking, and resolving community infrastructure issues with predictive insights and citizen gamification.",
+  "requestFramePermissions": ["geolocation", "camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

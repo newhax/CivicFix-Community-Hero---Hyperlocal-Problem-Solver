@@ -1,0 +1,550 @@
+{
+  "issues": [
+    {
+      "id": "issue-1",
+      "title": "Major Pothole on Oakwood Boulevard",
+      "description": "A deep, dangerous pothole measuring roughly 3 feet wide and 6 inches deep is located right in the middle of the northbound lane. Multiple cars have had to swerve suddenly, causing a high hazard for head-on collisions.",
+      "category": "POTHOLES",
+      "severity": "HIGH",
+      "latitude": 40.7259,
+      "longitude": -73.992,
+      "address": "328 Oakwood Blvd (near Broadway intersection)",
+      "imageUrl": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=600",
+      "reporterId": "user-system-1",
+      "reporterName": "Elena Rostova",
+      "status": "VERIFIED",
+      "createdAt": "2026-06-27T06:56:00.177Z",
+      "updatedAt": "2026-06-28T06:56:00.177Z",
+      "upvotes": 42,
+      "downvotes": 1,
+      "validationsCount": 15,
+      "flagsCount": 0,
+      "comments": [
+        {
+          "id": "c-1",
+          "authorId": "user-system-2",
+          "authorName": "Marcus Vance",
+          "authorAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=100",
+          "text": "I hit this yesterday! Extremely dangerous, damaged my front-left tire alignment. Glad it is reported.",
+          "createdAt": "2026-06-27T18:56:00.177Z"
+        },
+        {
+          "id": "c-2",
+          "authorId": "user-official-1",
+          "authorName": "Sarah Chen",
+          "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100",
+          "text": "Municipal Maintenance has noted this. A verification inspector has visited and validated the high urgency. Queueing up asphalt crews.",
+          "createdAt": "2026-06-28T06:56:00.177Z",
+          "isOfficial": true
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "REPORTED",
+          "note": "Issue created by community member Elena Rostova",
+          "updatedAt": "2026-06-27T06:56:00.177Z",
+          "updatedBy": "Elena Rostova"
+        },
+        {
+          "status": "VERIFIED",
+          "note": "Community reached consensus verification. 15 validated reports.",
+          "updatedAt": "2026-06-28T06:56:00.177Z",
+          "updatedBy": "Civic Community Engine"
+        }
+      ],
+      "votes": [
+        {
+          "userId": "user-system-2",
+          "voteType": "VALIDATE"
+        },
+        {
+          "userId": "user-system-3",
+          "voteType": "VALIDATE"
+        }
+      ],
+      "upvotedBy": [
+        "user-system-2",
+        "user-system-3"
+      ]
+    },
+    {
+      "id": "issue-2",
+      "title": "Water Main Burst & Flooding",
+      "description": "Severe water leakage flowing onto the sidewalk and road, forming a massive puddle and undermining the pavement. It seems to be coming from a cracked municipal water line near the fire hydrant.",
+      "category": "WATER_LEAKAGE",
+      "severity": "CRITICAL",
+      "latitude": 40.718,
+      "longitude": -74.008,
+      "address": "105 Pine Street East",
+      "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600",
+      "reporterId": "user-system-2",
+      "reporterName": "Marcus Vance",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-06-29T06:56:00.177Z",
+      "updatedAt": "2026-06-29T18:56:00.177Z",
+      "upvotes": 68,
+      "downvotes": 0,
+      "validationsCount": 28,
+      "flagsCount": 0,
+      "comments": [
+        {
+          "id": "c-3",
+          "authorId": "user-official-1",
+          "authorName": "Water Dept (Sarah Chen)",
+          "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100",
+          "text": "Water department dispatch has isolated the main line valve. Crews are currently excavating to replace the damaged high-density pipe. Roads are partially closed.",
+          "createdAt": "2026-06-29T18:56:00.177Z",
+          "isOfficial": true
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "REPORTED",
+          "note": "Hydrant-side pipeline leakage reported.",
+          "updatedAt": "2026-06-29T06:56:00.177Z",
+          "updatedBy": "Marcus Vance"
+        },
+        {
+          "status": "VERIFIED",
+          "note": "Community validations achieved immediately.",
+          "updatedAt": "2026-06-29T10:56:00.177Z",
+          "updatedBy": "Civic Community Engine"
+        },
+        {
+          "status": "IN_PROGRESS",
+          "note": "Water department has deployed crew #4B. Operations underway.",
+          "updatedAt": "2026-06-29T18:56:00.177Z",
+          "updatedBy": "Sarah Chen"
+        }
+      ],
+      "votes": [],
+      "upvotedBy": []
+    },
+    {
+      "id": "issue-3",
+      "title": "Broken Streetlight on Parkside Avenue",
+      "description": "The street light in front of the community park has been out for three weeks. The sidewalk is completely dark at night, creating safety and security hazards for joggers and residents walking their dogs.",
+      "category": "STREETLIGHTS",
+      "severity": "LOW",
+      "latitude": 40.738,
+      "longitude": -73.988,
+      "address": "Parkside Ave, opposite Greenview Park",
+      "imageUrl": "https://images.unsplash.com/photo-1508849789987-4e5333c12b78?auto=format&fit=crop&q=80&w=600",
+      "reporterId": "user-system-3",
+      "reporterName": "Julian Karr",
+      "status": "RESOLVED",
+      "createdAt": "2026-06-20T06:56:00.177Z",
+      "updatedAt": "2026-06-26T06:56:00.177Z",
+      "upvotes": 12,
+      "downvotes": 0,
+      "validationsCount": 4,
+      "flagsCount": 0,
+      "comments": [
+        {
+          "id": "c-4",
+          "authorId": "user-official-1",
+          "authorName": "Sarah Chen",
+          "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100",
+          "text": "Work order #92839 issued to Electric Utility Div. Light fixture replaced with high-efficiency long-life LED bulb.",
+          "createdAt": "2026-06-26T06:56:00.177Z",
+          "isOfficial": true
+        }
+      ],
+      "statusHistory": [
+        {
+          "status": "REPORTED",
+          "note": "Issue submitted by Julian.",
+          "updatedAt": "2026-06-20T06:56:00.177Z",
+          "updatedBy": "Julian Karr"
+        },
+        {
+          "status": "RESOLVED",
+          "note": "Bulb and fixture replaced. Light verified operational.",
+          "updatedAt": "2026-06-26T06:56:00.177Z",
+          "updatedBy": "Sarah Chen"
+        }
+      ],
+      "votes": [],
+      "upvotedBy": []
+    },
+    {
+      "id": "issue-4",
+      "title": "Illegal Dump of Building Materials",
+      "description": "A truck dumped piles of dry concrete blocks, drywall scraps, and metal wires in the public alleyway behind the local grocery store. It is blocking trash collector vehicle access.",
+      "category": "WASTE_MANAGEMENT",
+      "severity": "MEDIUM",
+      "latitude": 40.73,
+      "longitude": -74.001,
+      "address": "Alleyway behind 45 Commerce Rd",
+      "imageUrl": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&q=80&w=600",
+      "reporterId": "user-system-1",
+      "reporterName": "Elena Rostova",
+      "status": "REPORTED",
+      "createdAt": "2026-06-30T00:56:00.177Z",
+      "updatedAt": "2026-06-30T00:56:00.177Z",
+      "upvotes": 9,
+      "downvotes": 0,
+      "validationsCount": 2,
+      "flagsCount": 0,
+      "comments": [],
+      "statusHistory": [
+        {
+          "status": "REPORTED",
+          "note": "Alley dump reported. Restricting access to waste vehicles.",
+          "updatedAt": "2026-06-30T00:56:00.177Z",
+          "updatedBy": "Elena Rostova"
+        }
+      ],
+      "votes": [],
+      "upvotedBy": []
+    },
+    {
+      "id": "issue-5",
+      "title": "Severely Damaged Pedestrian Railing",
+      "description": "The metal safety railing along the canal walkway has rusted through completely, leaving a dangerous 15-foot gap where children or seniors could easily trip and fall into the deep water channel. Immediate intervention needed.",
+      "category": "PUBLIC_INFRASTRUCTURE",
+      "severity": "CRITICAL",
+      "latitude": 40.711,
+      "longitude": -73.999,
+      "address": "Canal Walkway near Pier 3",
+      "imageUrl": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=600",
+      "reporterId": "user-system-3",
+      "reporterName": "Julian Karr",
+      "status": "REPORTED",
+      "createdAt": "2026-06-28T18:56:00.177Z",
+      "updatedAt": "2026-06-28T18:56:00.177Z",
+      "upvotes": 56,
+      "downvotes": 0,
+      "validationsCount": 18,
+      "flagsCount": 0,
+      "comments": [],
+      "statusHistory": [
+        {
+          "status": "REPORTED",
+          "note": "Rusted channel railing reported.",
+          "updatedAt": "2026-06-28T18:56:00.177Z",
+          "updatedBy": "Julian Karr"
+        }
+      ],
+      "votes": [],
+      "upvotedBy": []
+    }
+  ],
+  "users": [
+    {
+      "following": [
+        "user-system-1"
+      ],
+      "handle": "@abhinav_s",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100",
+      "id": "user-current-1",
+      "name": "Abhinav Srivastava",
+      "email": "srivastavaabhinav5158@gmail.com",
+      "xp": 1300,
+      "level": 3,
+      "badges": [
+        {
+          "id": "badge-1",
+          "name": "Civic Champion",
+          "description": "Earned for high civic engagement and validated reports.",
+          "icon": "ShieldAlert",
+          "unlockedAt": "2026-06-15T06:56:00.177Z"
+        },
+        {
+          "id": "badge-2",
+          "name": "Pothole Patrol",
+          "description": "Reported or validated 5+ road quality concerns.",
+          "icon": "Hammer",
+          "unlockedAt": "2026-06-25T06:56:00.177Z"
+        }
+      ],
+      "reportsCount": 4,
+      "validationsCount": 12
+    },
+    {
+      "following": [],
+      "handle": "@elena_rostova",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100",
+      "id": "user-system-1",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@metro.org",
+      "xp": 1850,
+      "level": 4,
+      "badges": [
+        {
+          "id": "badge-1",
+          "name": "Civic Champion",
+          "description": "Earned for high civic engagement and validated reports.",
+          "icon": "ShieldAlert",
+          "unlockedAt": "2026-05-31T06:56:00.177Z"
+        },
+        {
+          "id": "badge-3",
+          "name": "Eco Guardian",
+          "description": "Reported 5+ waste management or recycling concerns.",
+          "icon": "Trash2",
+          "unlockedAt": "2026-06-20T06:56:00.177Z"
+        }
+      ],
+      "reportsCount": 11,
+      "validationsCount": 22
+    },
+    {
+      "following": [],
+      "handle": "@marcus_vance",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=100",
+      "id": "user-system-2",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@urbanmail.net",
+      "xp": 920,
+      "level": 2,
+      "badges": [
+        {
+          "id": "badge-4",
+          "name": "Validator",
+          "description": "Voted and confirmed 10+ reports accurately.",
+          "icon": "Vote",
+          "unlockedAt": "2026-06-28T06:56:00.177Z"
+        }
+      ],
+      "reportsCount": 2,
+      "validationsCount": 14
+    },
+    {
+      "following": [],
+      "handle": "@julian_k",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=100",
+      "id": "user-system-3",
+      "name": "Julian Karr",
+      "email": "jkarr@vox.org",
+      "xp": 550,
+      "level": 1,
+      "badges": [
+        {
+          "id": "badge-5",
+          "name": "Pioneer",
+          "description": "Signed up in the first wave of community watch.",
+          "icon": "Award",
+          "unlockedAt": "2026-05-21T06:56:00.177Z"
+        }
+      ],
+      "reportsCount": 3,
+      "validationsCount": 4
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "user-current-1",
+      "title": "Issue Promoted to Verified",
+      "message": "Your reported 'Major Pothole on Oakwood Boulevard' reached 5+ validations and is now Verified.",
+      "type": "STATUS_UPDATE",
+      "issueId": "issue-1",
+      "isRead": true,
+      "createdAt": "2026-06-28T06:56:00.177Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "user-current-1",
+      "title": "New Official Response",
+      "message": "Sarah Chen (Water Dept) commented on your reported 'Water Main Burst & Flooding' issue.",
+      "type": "NEW_COMMENT",
+      "issueId": "issue-2",
+      "isRead": true,
+      "createdAt": "2026-06-29T06:56:00.177Z"
+    },
+    {
+      "id": "notif-3",
+      "userId": "user-current-1",
+      "title": "Civic Concern Nearby",
+      "message": "A Broken Streetlight has been reported on Parkside Avenue, in your vicinity.",
+      "type": "VICINITY_ISSUE",
+      "issueId": "issue-3",
+      "isRead": true,
+      "createdAt": "2026-06-20T06:56:00.177Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1782803903820",
+      "authorId": "user-current-1",
+      "authorName": "Abhinav Srivastava",
+      "authorHandle": "@abhinav_s",
+      "authorAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100",
+      "content": "potholes near my area.",
+      "media": [],
+      "likes": 1,
+      "likedBy": [
+        "user-current-1"
+      ],
+      "comments": [],
+      "createdAt": "2026-06-30T07:18:23.820Z"
+    },
+    {
+      "id": "post-hazard-1",
+      "authorId": "user-system-1",
+      "authorName": "Elena Rostova",
+      "authorHandle": "@elena_rostova",
+      "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100",
+      "content": "URGENT SAFETY HAZARD! A major tree limb has cracked and is hanging low over the crosswalk on Oakwood Blvd near Elm Dr. Pedestrians have to step into the bike lane to pass. Reported via the hazard dispatch tool. Please watch out! 🌳⚠️ #HazardWatch #RoadSafety",
+      "media": [
+        {
+          "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=600",
+          "type": "image/jpeg"
+        }
+      ],
+      "likes": 18,
+      "likedBy": [
+        "user-system-2",
+        "user-current-1"
+      ],
+      "comments": [
+        {
+          "id": "pcomment-h1",
+          "authorId": "user-system-2",
+          "authorName": "Marcus Vance",
+          "authorHandle": "@marcus_vance",
+          "authorAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=100",
+          "text": "Wow, that looks extremely unstable! Thanks for the heads-up Elena. Upvoted and validated on the radar map so dispatch gets it immediately.",
+          "createdAt": "2026-06-30T06:49:58.177Z"
+        }
+      ],
+      "createdAt": "2026-06-30T04:19:58.177Z"
+    },
+    {
+      "id": "post-1",
+      "authorId": "user-system-1",
+      "authorName": "Elena Rostova",
+      "authorHandle": "@elena_rostova",
+      "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100",
+      "content": "Just completed my morning neighborhood walk! Glad to see that the Oakwood Boulevard pothole is being validated by so many people in the app. Let's keep our streets safe! 🚶‍♀️✨",
+      "media": [
+        {
+          "url": "https://images.unsplash.com/photo-1513829096999-4978602297f7?auto=format&fit=crop&q=80&w=600",
+          "type": "image/jpeg"
+        }
+      ],
+      "likes": 14,
+      "likedBy": [
+        "user-system-2"
+      ],
+      "comments": [
+        {
+          "id": "pcomment-1",
+          "authorId": "user-system-2",
+          "authorName": "Marcus Vance",
+          "authorHandle": "@marcus_vance",
+          "authorAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=100",
+          "text": "Yes! The community spirit here is incredible. Thanks for posting Elena!",
+          "createdAt": "2026-06-30T05:56:00.177Z"
+        }
+      ],
+      "createdAt": "2026-06-30T04:56:00.177Z"
+    },
+    {
+      "id": "post-2",
+      "authorId": "user-system-2",
+      "authorName": "Marcus Vance",
+      "authorHandle": "@marcus_vance",
+      "authorAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=100",
+      "content": "Water pipeline crew is doing active excavations on Pine Street East. Avoid this corridor if you are driving! 🚗💦 Great job to the water department for their speed.",
+      "media": [
+        {
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600",
+          "type": "image/jpeg"
+        }
+      ],
+      "likes": 8,
+      "likedBy": [],
+      "comments": [],
+      "createdAt": "2026-06-30T02:56:00.177Z"
+    },
+    {
+      "id": "post-hazard-2",
+      "authorId": "user-system-3",
+      "authorName": "Julian Karr",
+      "authorHandle": "@julian_k",
+      "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=100",
+      "content": "Warning for drivers: There's an exposed metal construction plate that has shifted on Broad Street South, creating a dangerous metal lip that could puncture tires or cause a cyclist to lose control. Slow down as you approach the 400-block! ⚠️🚗 #HazardWatch #RoadSafety",
+      "media": [
+        {
+          "url": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&q=80&w=600",
+          "type": "image/jpeg"
+        }
+      ],
+      "likes": 12,
+      "likedBy": [],
+      "comments": [],
+      "createdAt": "2026-06-30T01:19:58.177Z"
+    },
+    {
+      "id": "post-hazard-3",
+      "authorId": "user-system-2",
+      "authorName": "Marcus Vance",
+      "authorHandle": "@marcus_vance",
+      "authorAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=100",
+      "content": "The public trash receptacle near Broadway and Elm is completely overflowed with discarded construction debris and sharp glass shards. It's a walking hazard for pets and kids in the park area. I've filed a sanitation request, let's get this cleared! 🚮⚠️ #CleanAlleys #HazardWatch",
+      "media": [
+        {
+          "url": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&q=80&w=600",
+          "type": "image/jpeg"
+        }
+      ],
+      "likes": 9,
+      "likedBy": [],
+      "comments": [],
+      "createdAt": "2026-06-29T23:19:58.177Z"
+    },
+    {
+      "id": "post-3",
+      "authorId": "user-system-3",
+      "authorName": "Julian Karr",
+      "authorHandle": "@julian_k",
+      "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=100",
+      "content": "The parkside avenue streetlight has been fully replaced with bright, high-efficiency LEDs. Feels much safer to run here at night now! Thanks Sarah Chen! 🌟",
+      "media": [
+        {
+          "url": "https://images.unsplash.com/photo-1508849789987-4e5333c12b78?auto=format&fit=crop&q=80&w=600",
+          "type": "image/jpeg"
+        }
+      ],
+      "likes": 21,
+      "likedBy": [
+        "user-system-1",
+        "user-current-1"
+      ],
+      "comments": [],
+      "createdAt": "2026-06-29T18:56:00.177Z"
+    },
+    {
+      "id": "post-hazard-4",
+      "authorId": "user-system-1",
+      "authorName": "Elena Rostova",
+      "authorHandle": "@elena_rostova",
+      "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100",
+      "content": "Great news! The fallen electrical wire on Pine Street East that was causing a serious hazard yesterday has been completely cleared and secured by the power grid crew. Thanks everyone who validated the dispatch ticket! ⚡👷‍♂️ #HazardWatch #WaterDeptSpeed",
+      "media": [
+        {
+          "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600",
+          "type": "image/jpeg"
+        }
+      ],
+      "likes": 25,
+      "likedBy": [
+        "user-system-3"
+      ],
+      "comments": [
+        {
+          "id": "pcomment-h4",
+          "authorId": "user-system-3",
+          "authorName": "Julian Karr",
+          "authorHandle": "@julian_k",
+          "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=100",
+          "text": "Incredible response time! The system works perfectly when we coordinate.",
+          "createdAt": "2026-06-30T06:19:58.177Z"
+        }
+      ],
+      "createdAt": "2026-06-29T07:19:58.177Z"
+    }
+  ]
+}

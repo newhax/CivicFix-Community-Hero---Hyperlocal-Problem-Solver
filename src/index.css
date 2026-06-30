@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-primary: #a855f7;
+  --color-brand-secondary: #7e22ce;
+
+  /* Redefining slate colors for an ultra-premium dark theme inspired by the FinancePro reference image */
+  --color-slate-50: #08070e;   /* Extremely dark purple-black (matching the reference canvas) */
+  --color-slate-100: #12101a;  /* Dark card background */
+  --color-slate-150: #1a1727;  /* Slightly lighter card border/background */
+  --color-slate-200: #252137;  /* Subtle dark border */
+  --color-slate-300: #3a3454;  /* Inactive items / secondary border */
+  --color-slate-400: #a39eb5;  /* Secondary muted text */
+  --color-slate-500: #cbc4dd;  /* Standard text */
+  --color-slate-600: #e2def2;  /* Light body text */
+  --color-slate-700: #f1eef8;  /* Crisp body text */
+  --color-slate-800: #faf9fd;  /* Title / Heading text */
+  --color-slate-900: #ffffff;  /* Pure white text */
+  --color-slate-950: #ffffff;  /* Pure white text */
+
+  /* Emerald (resolutions, positive status badges) mapped to beautiful bright green/emerald with black text inside */
+  --color-emerald-50: #064e3b;
+  --color-emerald-100: #065f46;
+  --color-emerald-200: #047857;
+  --color-emerald-300: #059669;
+  --color-emerald-400: #10b981;
+  --color-emerald-500: #34d399;
+  --color-emerald-600: #6ee7b7;
+  --color-emerald-700: #a7f3d0;
+  --color-emerald-800: #ecfdf5;
+  --color-emerald-900: #ffffff;
+  --color-emerald-950: #ffffff;
+
+  /* Blue (primary buttons, links, maps) mapped to high-fidelity vibrant violet-blue shades */
+  --color-blue-50: #1e1b4b;
+  --color-blue-100: #311c5e;
+  --color-blue-200: #4c1d95;
+  --color-blue-300: #6d28d9;
+  --color-blue-400: #8b5cf6;
+  --color-blue-500: #a855f7;
+  --color-blue-600: #c084fc;
+  --color-blue-700: #d8b4fe;
+  --color-blue-800: #e9d5ff;
+  --color-blue-900: #f3e8ff;
+  --color-blue-950: #ffffff;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: radial-gradient(circle at 50% 0px, rgba(168, 85, 247, 0.15), rgba(8, 7, 14, 0) 60%), #08070E !important;
+  color: #ede6fc !important;
+  overflow-x: hidden;
+}
+
+/* Base text elements styling for universal high readability and modern typography */
+p, span, h1, h2, h3, h4, h5, h6, label, li, th, td, strong, small {
+  color: #ede6fc; /* Elegant warm white */
+}
+
+/* Ensure headings have a premium bright white look */
+h1, h2, h3, h4, .text-slate-800, .text-slate-900 {
+  color: #ffffff !important;
+}
+
+/* Ensure descriptions and muted text remain beautifully legible but secondary */
+.text-slate-400, .text-slate-500 {
+  color: #a39eb5 !important;
+}
+
+/* Solid white elements should stay crisp white */
+.text-white {
+  color: #ffffff !important;
+}
+
+/* Dynamic glow effects for icons, making them crisp and legible */
+svg, svg *, path, circle, rect, line, polyline, polygon {
+  stroke-width: 2px;
+}
+
+/* Re-routing .bg-white to be the ultra-sleek dark cards shown in the reference image */
+.bg-white {
+  background-color: #12101a !important; /* Perfect sleek slate-purple card background */
+  border: 1px solid rgba(168, 85, 247, 0.12) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4) !important;
+  color: #ffffff !important;
+}
+
+.bg-white\/95 {
+  background-color: rgba(18, 16, 26, 0.95) !important;
+}
+.bg-white\/90 {
+  background-color: rgba(18, 16, 26, 0.90) !important;
+}
+.bg-white\/80 {
+  background-color: rgba(18, 16, 26, 0.80) !important;
+}
+.bg-white\/50 {
+  background-color: rgba(18, 16, 26, 0.50) !important;
+  backdrop-filter: blur(8px) !important;
+}
+.bg-white\/10 {
+  background-color: rgba(168, 85, 247, 0.1) !important;
+}
+
+/* Hover styles for interactive cards */
+.hover\:bg-white:hover {
+  background-color: #1a1727 !important;
+  border-color: rgba(168, 85, 247, 0.25) !important;
+}
+
+/* Ensure secondary slate text inside dark blue/purple cards remains highly legible */
+.bg-white p, .bg-white span, .bg-white h1, .bg-white h2, .bg-white h3, .bg-white h4, .bg-white label, .bg-white div {
+  color: inherit;
+}
+
+/* Styling for forms, headers, footers, navigation to perfectly align with reference image */
+header, aside, footer, form, [id^="issue-report-form"], [id^="impact-dashboard"] {
+  background-color: #12101a !important;
+  color: #ffffff !important;
+  border-color: rgba(168, 85, 247, 0.12) !important;
+}
+
+/* Premium dark inputs, textareas, and select elements */
+input, textarea, select {
+  background-color: #1a1727 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(168, 85, 247, 0.15) !important;
+  border-radius: 8px !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #6c6382 !important;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #a855f7 !important;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.35) !important;
+  outline: none !important;
+}
+
+/* Custom button theme: vibrant violet accent matching the reference image's 'Get started' button */
+.bg-brand-primary, .bg-purple-600, .bg-indigo-600, .bg-blue-600, button.bg-emerald-600 {
+  background-color: #a855f7 !important;
+  color: #ffffff !important;
+}
+.bg-brand-primary:hover, .bg-purple-600:hover, .bg-indigo-600:hover, .bg-blue-600:hover, button.bg-emerald-600:hover {
+  background-color: #9333ea !important;
+}
+
+/* Ensure standard text color inside primary buttons is crisp white */
+button.bg-brand-primary *, .bg-purple-600 *, .bg-indigo-600 *, .bg-blue-600 *, button.bg-emerald-600 * {
+  color: #ffffff !important;
+}
+
+/* White buttons (like 'Receive' or secondary actions) stay white with deep charcoal text */
+.bg-white-btn, button.bg-white {
+  background-color: #ffffff !important;
+  color: #0c021f !important;
+  border: none !important;
+}
+.bg-white-btn:hover, button.bg-white:hover {
+  background-color: #e2d1fc !important;
+}
+.bg-white-btn *, button.bg-white * {
+  color: #0c021f !important;
+}
+
+/* Smooth elegant scrollbars matching the premium black/violet design */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #08070e;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1727;
+  border-radius: 4px;
+  border: 1px solid rgba(168, 85, 247, 0.1);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
+
+/* Overriding issue statuses, tags and highlights for a cohesive violet aesthetic */
+.badge-reported {
+  background-color: rgba(168, 85, 247, 0.15) !important;
+  color: #c084fc !important;
+  border: 1px solid rgba(168, 85, 247, 0.3) !important;
+}
+.badge-investigating {
+  background-color: rgba(234, 179, 8, 0.1) !important;
+  color: #facc15 !important;
+  border: 1px solid rgba(234, 179, 8, 0.2) !important;
+}
+.badge-resolved {
+  background-color: rgba(16, 185, 129, 0.1) !important;
+  color: #34d399 !important;
+  border: 1px solid rgba(16, 185, 129, 0.2) !important;
+}
+
+/* Custom Theme for User Profile Sub-tabs and Panels to match Citizen Feed's original light background */
+.active-green-tab {
+  background-color: #e9d5ff !important; /* Elegant light pastel purple/lavender of Citizen Feed */
+  color: #000000 !important;
+  border: 1px solid #d8b4fe !important;
+}
+
+.active-green-tab *, .active-green-tab svg, .active-green-tab span {
+  color: #000000 !important;
+  stroke: #000000 !important;
+}
+
+.active-green-panel {
+  background-color: #e9d5ff !important; /* Elegant light pastel purple/lavender of Citizen Feed */
+  color: #000000 !important;
+  border: 1px solid #d8b4fe !important;
+}
+
+/* Ensure all text inside active panel is dark black for high readability */
+.active-green-panel,
+.active-green-panel p,
+.active-green-panel span,
+.active-green-panel h1,
+.active-green-panel h2,
+.active-green-panel h3,
+.active-green-panel h4,
+.active-green-panel h5,
+.active-green-panel h6,
+.active-green-panel label,
+.active-green-panel li,
+.active-green-panel th,
+.active-green-panel td,
+.active-green-panel strong,
+.active-green-panel small,
+.active-green-panel div,
+.active-green-panel svg,
+.active-green-panel svg *,
+.active-green-panel path {
+  color: #000000 !important;
+  stroke: #000000 !important;
+}
+
+/* Specific elements inside the active green panel */
+.active-green-panel input,
+.active-green-panel textarea,
+.active-green-panel select {
+  background-color: #ffffff !important; /* Clean white input boxes */
+  color: #000000 !important;
+  border: 1px solid #c084fc !important;
+}
+
+.active-green-panel input::placeholder,
+.active-green-panel textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Ensure secondary container boxes inside active green panel also style nicely */
+.active-green-panel .bg-white {
+  background-color: #f5edff !important; /* Muted pastel contrast background */
+  border-color: #d8b4fe !important;
+}
+
+.active-green-panel .hover\:bg-slate-50\/40:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Make buttons inside active green panel look crisp (black/dark accents) */
+.active-green-panel button.bg-slate-950,
+.active-green-panel button.bg-slate-900 {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+.active-green-panel button.bg-slate-950 *,
+.active-green-panel button.bg-slate-950 svg,
+.active-green-panel button.bg-slate-950 span,
+.active-green-panel button.bg-slate-900 *,
+.active-green-panel button.bg-slate-900 svg,
+.active-green-panel button.bg-slate-900 span {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+.active-green-panel button:not(.active-green-tab):not(.bg-slate-950):not(.bg-slate-900) {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+  color: #000000 !important;
+}
+
+.active-green-panel button:not(.active-green-tab):not(.bg-slate-950):not(.bg-slate-900):hover {
+  background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
